@@ -22,6 +22,14 @@ img {
   width: 300px;
 }
 
+a {
+  color: #77af9c;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 
 /* Profile Styles
 ---------------------------------*/
@@ -31,6 +39,22 @@ img {
 ---------------------------------*/
 .projects {
   background: #d7fff1;
+}
+
+.projects a {
+  background: #aafcb8;
+}
+
+.projects a.btn {
+  background: #285943;
+  color: #d7fff1;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px
+}
+
+.projects a.btn:hover {
+  background: rgba(40,89,67,50%);
 }
 
 /* Work Experience Styles
