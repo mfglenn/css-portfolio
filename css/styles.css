@@ -9,10 +9,21 @@ COLOR PALETTE: https://coolors.co/d7fff1-aafcb8-8cd790-77af9c-285943
 
 /* Global Styles
 ---------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #285943;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 header {
@@ -32,8 +43,20 @@ a:hover {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h1,
 h2 {
   margin: 0;
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
 }
 
 .content-wrap {
@@ -67,6 +90,21 @@ h2 {
 
 .projects a.btn:hover {
   background: rgba(40,89,67,50%);
+}
+
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #285943;
+  padding: 25px 0;
+}
+
+.project-item h3 {
+  margin-top:0;
+}
+
+.project-item img {
+  float: left;
+  margin-right: 20px;
 }
 
 /* Work Experience Styles
