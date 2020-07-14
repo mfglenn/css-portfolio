@@ -1,3 +1,53 @@
+/*
+COLOR PALETTE: https://coolors.co/d7fff1-aafcb8-8cd790-77af9c-285943
+#d7fff1 - Aero BLue
+#aafcb8 - Granny Smith Apple Light
+#8cd790 - Granny Smith Apply Dark
+#77af9c - Green Sheen
+#285943 - Castleton Green
+ */
+
+/* Global Styles
+---------------------------------*/
+body {
+  color: #285943
+}
+
+header {
+  background: #77af9c;
+  color: #d7fff1;
+}
+
 img {
   width: 300px;
+}
+
+
+/* Profile Styles
+---------------------------------*/
+
+
+/* Project Styles
+---------------------------------*/
+.projects {
+  background: #d7fff1;
+}
+
+/* Work Experience Styles
+---------------------------------*/
+.work-experience {
+  background: #aafcb8;
+}
+
+/* Eductation Styles
+---------------------------------*/
+.work-experience {
+  background: #aafcb8;
+}
+
+/* Contact Styles
+---------------------------------*/
+footer {
+  background: #285943;
+  color: #d7fff1;
 }
