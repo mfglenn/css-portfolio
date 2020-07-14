@@ -10,7 +10,9 @@ COLOR PALETTE: https://coolors.co/d7fff1-aafcb8-8cd790-77af9c-285943
 /* Global Styles
 ---------------------------------*/
 body {
-  color: #285943
+  color: #285943;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -30,6 +32,10 @@ a:hover {
   text-decoration: none;
 }
 
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
 
 /* Profile Styles
 ---------------------------------*/
