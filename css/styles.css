@@ -53,11 +53,23 @@ h2 {
   font-size: 45px;
 }
 
+.item-details h3 {
+  margin-bottom: 0;
+}
+
 h1,
 h2 {
   margin: 0;
   font-family: 'Caveat', cursive;
   font-weight: 400;
+}
+
+.item-details h3 + p {
+  font-style:italic;
+}
+
+.item-details h3 ~ p {
+  margin: 0;
 }
 
 .content-wrap {
@@ -119,6 +131,13 @@ h2 {
 .work-experience {
   background: #aafcb8;
 }
+
+.job-item {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 0 20px;
+}
+
 
 /* Contact Styles
 ---------------------------------*/
