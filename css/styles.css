@@ -29,6 +29,7 @@ body {
 header {
   background: #77af9c;
   color: #d7fff1;
+  text-align: center;
 }
 
 img {
@@ -124,4 +125,17 @@ h2 {
 footer {
   background: #285943;
   color: #d7fff1;
+  text-align: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
 }
